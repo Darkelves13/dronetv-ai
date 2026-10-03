@@ -1,0 +1,14 @@
+# Ignore node_modules everywhere
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Ignore environment variable files (keeps MongoDB credentials secret!)
+.env
+.env.local
+server/.env
+client/.env
+
+# Ignore build and OS files
+dist/
+.DS_Store
