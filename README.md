@@ -212,7 +212,7 @@ npm run build
 - **Home Page & Landing Section (Desktop):**
   ![Home Page Desktop](./screenshots/home-desktop.png)
 - **Services & Training Courses Grid:**
-  ![Services and Courses](./screenshots/services-courses.png)
+  ![Services and Courses](./screenshots/services.png)
 - **Interactive Chatbot & Enquiry Form:**
   ![Chatbot and Enquiry Form](./screenshots/chatbot-enquiry.png)
 - **Admin Dashboard & Enquiry Detail Modal (Desktop, Tablet & Mobile):**
