@@ -2,15 +2,8 @@ import mongoose from "mongoose";
 import enquiryModel from "../models/enquiryModel.js";
 
 const sanitizeInput = (str) => {
-  if (typeof str !== "string") return str;
-
-  return str
-    .trim()
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;");
+  if (typeof str !== "string") return "";
+  return str.replace(/<[^>]*>?/gm, "").trim();
 };
 
 export const fetchAllEnquiries = async (req, res) => {
